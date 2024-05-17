@@ -40,4 +40,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 1. To convert a server side component into client side component we use `"use client"` on the top of the file.
 2. We have to convert a server-side component to client-side component with next.js when we use any react hook like `useState()` in a component.
 3. Whenever you use eventListeners like onClick etc. we use `"use client"`.
-4. 
+4. Error components must be client components.
+5. There are 3 data fetching strategies that next.js uses.
+   1. Server Side Rendering (SSR)
+   2. Static Site Generation (SSG)
+   3. Incremental Static Generation (ISG)
+6.
