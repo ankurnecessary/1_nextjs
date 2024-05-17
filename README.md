@@ -48,3 +48,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
    2. Static Site Generation (SSG)
    3. Incremental Static Generation (ISG)
 6. We can also create API calls inside a next.js project. To create an API call of `http://localhost:3000/api/users` we need to create an `api/users` folder inside `app` folder which will then have route.js file in it. Via route.js we can define different kind of HTTP requests.
+7. To generate SEO related data statically we need to just export an object in the variable `metadata`. Inside that object we can define the keys like `title`, `description` etc.
