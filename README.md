@@ -1,3 +1,5 @@
+# Next.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -45,4 +47,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
    1. Server Side Rendering (SSR)
    2. Static Site Generation (SSG)
    3. Incremental Static Generation (ISG)
-6.
+6. We can also create API calls inside a next.js project. To create an API call of `http://localhost:3000/api/users` we need to create an `api/users` folder inside `app` folder which will then have route.js file in it. Via route.js we can define different kind of HTTP requests.
