@@ -34,3 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Knowledge
+
+1. To convert a server side component into client side component we use `"use client"` on the top of the file.
+2. We have to convert a server-side component to client-side component with next.js when we use any react hook like `useState()` in a component.
+3. Whenever you use eventListeners like onClick etc. we use `"use client"`.
+4. 
